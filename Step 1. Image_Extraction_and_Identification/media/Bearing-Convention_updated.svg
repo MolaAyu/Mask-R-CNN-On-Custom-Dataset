@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="321px"
+   height="363px"
+   viewBox="-0.5 -0.5 321 363"
+   content="&lt;mxfile userAgent=&quot;Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36&quot; version=&quot;9.3.2&quot; editor=&quot;www.draw.io&quot; type=&quot;device&quot;&gt;&lt;diagram id=&quot;4c66c29e-e8a6-af0c-5171-e1027681fb7f&quot; name=&quot;Page-1&quot;&gt;7VlNc5swEP01HDsDCGNytJ2kvTTTaTrTswwyaAKICjm2++u7gMSncLDj8SRpfIjx02ql3X27rBQDrZL9V46z6DsLSGzYZrA30K1h25Zju/BVIIcKcT2nAkJOAynUAI/0L5GgKdEtDUjeERSMxYJmXdBnaUp80cEw52zXFduwuLtqhkMyAB59HA/R3zQQUYV6M7PBvxEaRmply5Qja+w/hZxtU7meYaNN+amGE6x0Sfk8wgHbtSB0Z6AVZ0xUT8l+ReLCt8pt1bz7kdF635ykYsoEJGc843hL1JbLjYmDckZhTybFCBdkrwsBXitxc7gHq7YMGENYQgQ/gIhUZHvVDMkVJBXsGscjpTRqOR25KuAy2GGtuTEYHqTNIw6bX8N+dNwBc2tgseU4GotNdAGLvZctJmmwKLIIfvkxznPqG2gZiQR03lrwmAvOnurMAMuWlQoSDNKqRYK53gktq2eaMCuMkxgL+tzVr3OEXOEHo7By7WPFKkkyq68hZ1vuEzmpnTDH9aCeGoF5SMRATRmU2uZpcbrRxMmNwSvLDSt31ATM/bNlauBLXlbTBQiA//fNYFEHsd+d8IsmUGZt84Hs4O9PluC0PcEN5Xe57FoBD4xDxCQKdqz7koBVe1Rwj1+QQ0LHqBWLGQckZSkpzKFx3INwTMO0oCXQigC+LDKSQuFeyIGEBkGxzHIXUUEes8riHbymACsLMykcbNbb0qT0FNaqGcNi5WhIrIrCaxJX6TiWuP6WP5f2FT5tZbH03tEUBvF7WqxeOicHJothEShhKWa9h7yf9fJ+1ovEmXl/01MzkvfgQHxoiWWFQD6+23lvt455dFN9ceu4+ExrQ0O/arfnFix7QitxIiXfPLsGb5Uz2aUCrRTZ3jR+nRMme0KY4hg67bEq2goZzrOq/d7QfVF3OiUbel+z/Fyo1qpDRc12d1B7vWGkvQtUXvReXWahrs/s+exaPnM0Puu0L6c2I2aujokKsyb0Kgqgkxom1G2YKhWLVltDNa3O/9j+9Atei0+6s9pF+p/Zh2HU8pNRoxVLFY76TYiuxzD3bTEszwpt55Ks7CmkouL+okJZi1ItuI2Wq35ysuGk1+vyzCse+nS3Na+k5It0cnR0+hURGFsTzGkawhPbGLY5St26qp3w8jQ3nCWTlJ5QP02a61SemxwfOQvGbinrq67hNaX2YrZ/xJ7Ae/jZ3HlXh5rmHwvo7h8=&lt;/diagram&gt;&lt;/mxfile&gt;"
+   id="svg48"
+   sodipodi:docname="Bearing Convention_updated.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata52">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     id="namedview50"
+     showgrid="false"
+     inkscape:zoom="2.600551"
+     inkscape:cx="173.61952"
+     inkscape:cy="251.9164"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg48" />
+  <defs
+     id="defs2" />
+  <path
+     d="M 101 122 L 101 40.24"
+     fill="none"
+     stroke="#000000"
+     stroke-width="2"
+     stroke-miterlimit="10"
+     pointer-events="none"
+     id="path4" />
+  <path
+     d="M 101 34.24 L 105 42.24 L 101 40.24 L 97 42.24 Z"
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="2"
+     stroke-miterlimit="10"
+     pointer-events="none"
+     id="path6" />
+  <path
+     d="M 128.37 147.32 Q 141 141 141 126 Q 141 111 131 101 Q 121 91 101 91"
+     fill="none"
+     stroke="#000000"
+     stroke-width="2"
+     stroke-miterlimit="10"
+     pointer-events="none"
+     id="path14" />
+  <path
+     d="M 123 150 L 128.37 142.84 L 128.37 147.32 L 131.94 150 Z"
+     fill="#000000"
+     stroke="#000000"
+     stroke-width="2"
+     stroke-miterlimit="10"
+     pointer-events="none"
+     id="path16" />
+  <path
+     d="M 101 121 L 211 281"
+     fill="none"
+     stroke="#000000"
+     stroke-width="2"
+     stroke-miterlimit="10"
+     pointer-events="none"
+     id="path18" />
+  <ellipse
+     cx="101"
+     cy="121"
+     rx="4"
+     ry="4"
+     fill="#000000"
+     stroke="#000000"
+     pointer-events="none"
+     id="ellipse20" />
+  <ellipse
+     cx="211"
+     cy="280"
+     rx="4"
+     ry="4"
+     fill="#000000"
+     stroke="#000000"
+     pointer-events="none"
+     id="ellipse22" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="90.827065"
+     y="27.93494"
+     id="text4567"><tspan
+       sodipodi:role="line"
+       id="tspan4565"
+       x="90.827065"
+       y="27.93494">North</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="150.31039"
+     y="113.39688"
+     id="text4643"><tspan
+       sodipodi:role="line"
+       id="tspan4641"
+       x="150.31039"
+       y="113.39688">140<tspan
+   style="font-size:64.99999762%;baseline-shift:super"
+   id="tspan4645">o</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="75.229515"
+     y="135.54282"
+     id="text4571"><tspan
+       sodipodi:role="line"
+       id="tspan4569"
+       x="75.229515"
+       y="135.54282"
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Bold Italic'">A</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="187.08023"
+     y="298.03922"
+     id="text4571-8"><tspan
+       sodipodi:role="line"
+       id="tspan4569-1"
+       x="187.08023"
+       y="298.03922"
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Bold Italic'">B</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="26.693422"
+     y="332.73215"
+     id="text4593"><tspan
+       sodipodi:role="line"
+       id="tspan4591"
+       x="26.693422"
+       y="332.73215"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, '">The bearing of <tspan
+   style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Bold Italic'"
+   id="tspan4639">B</tspan> from <tspan
+   style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Bold Italic'"
+   id="tspan4637">A</tspan> is <tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Bold'"
+   id="tspan4607">140<tspan
+   style="font-size:64.99999762%;baseline-shift:super"
+   id="tspan4635">o</tspan></tspan></tspan></text>
+</svg>
