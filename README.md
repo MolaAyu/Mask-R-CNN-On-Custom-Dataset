@@ -10,9 +10,9 @@ Here we defined 5 classes :
  - Balcony
  
 The repository includes:
-- Source code of Mask R-CNN built on FPN and ResNet101.
-- Pre-trained weights for MS COCO
+- Source code for download panorama images
+- Source code for Rectilinear projection
+- Source code for Identifying building based on longitude, latitude and heading
+- Modified code of Mask R-CNN for custom data set
 - Jupyter notebooks to visualize the detection pipeline at every step
-- ParallelModel class for multi-GPU training
-- Evaluation on MS COCO metrics (AP)
-- Example of training on your own dataset
+- Evaluation metrics 
