@@ -1,8 +1,9 @@
 ## Panorma Image Download
+<img src="data/img/Panorama_image.jpg" width=800 height=800>
 ![](data/img/Panorama_image.jpg)
-## Rectilinear Projection
-## Building Identification
+## Building Identification in Map
+![](data/img/Image_map.jpg)
 ## Extract images
-![](data/img_eq/0_270_158305448_tSSU2y8hzjibmMWkpqsNjg.jpg)
+<img src="data/img_eq/0_270_158305448_tSSU2y8hzjibmMWkpqsNjg.jpg" width=800 height=800>
 
 
