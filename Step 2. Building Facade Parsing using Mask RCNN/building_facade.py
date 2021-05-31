@@ -1,7 +1,7 @@
 """
 Mask R-CNN
 Train on the building facade dataset
-Modified by Mola Ayenew (building_facade.py) 
+Modified by Mola Ayenew
 Remove overlapping instances. Secifically,removing mask pixels of windows,doors, balconies and basement windows from wall class pixels.
 
 ------------------------------------------------------------
@@ -47,9 +47,9 @@ from mrcnn import model as modellib, utils
 # Path to trained weights file
 COCO_WEIGHTS_PATH = os.path.join(ROOT_DIR, "mask_rcnn_coco.h5")
 
-# mola Path for the new weight
+# New updates, Path for the new weight
 #MY_WEIGHTS_PATH = os.path.join(ROOT_DIR, "mask_rcnn_custom_0044.h5")
-#mola
+#New updates,
 
 # Directory to save logs and model checkpoints, if not provided
 # through the command line argument --logs
@@ -99,10 +99,7 @@ class CustomDataset(utils.Dataset):
         self.add_class("custom", 3, "basement_window")
         self.add_class("custom", 4, "door")
         self.add_class("custom", 5, "balcony")
-        #self.add_class("custom", 3, "triangular_window")
-        #self.add_class("custom", 6, "recessed_balcony")
-        #self.add_class("custom", 7, "hanging_balcony")
-        #self.add_class("custom", 8, "terrace_balcony")
+
 
         # Train or validation dataset?
         assert subset in ["train", "val"]
@@ -137,16 +134,11 @@ class CustomDataset(utils.Dataset):
             # the outline of each object instance. There are stores in the
             # shape_attributes (see json format above)
             polygons = [r['shape_attributes'] for r in a['regions']]
-            #print(polygons)
-            # mola added this part
+)
+            # New updates, added this part
             customs = [s['region_attributes'] for s in a['regions']]
-            #num_ids = [int(n['custom']) for n in customs]
-            #print(customs)
-            #num_ids=[]
             class_ids=[]
             for n in customs:
-                #print(n)
-        	    #print(type(n))
                 try:
                     if n['name']=='window':
                         class_ids.append(1)
@@ -175,7 +167,7 @@ class CustomDataset(utils.Dataset):
                 path=image_path,
                 width=width, height=height,
                 polygons=polygons,
-                class_ids=class_ids)# mola added
+                class_ids=class_ids)
     
     def load_mask(self, image_id):
         """Generate instance masks for an image.
@@ -188,7 +180,7 @@ class CustomDataset(utils.Dataset):
         image_info = self.image_info[image_id]
         if image_info["source"] != "custom":
             return super(self.__class__, self).load_mask(image_id)
-        # mola added this line
+        # New updates, added this line
         class_ids = image_info['class_ids']
 
         # Convert polygons to a bitmap mask of shape
@@ -204,13 +196,11 @@ class CustomDataset(utils.Dataset):
             # Get indexes of pixels inside the polygon and set them to 1
             rr, cc = skimage.draw.polygon(p['all_points_y'], p['all_points_x'])
             mask[rr, cc, i] = 1
-            # molla added
+            # New updates
             if class_ids[i] == 2:
-                #print("HI")
                 Index_wall.append(i)
             else:
                 Index_all_Other.append(i)
-        #print(count_wall)
         for wall_ids in Index_wall:
             for other_ids in Index_all_Other:
                 #mask[:, :,ids]  = mask[:, :, i] - mask[:, :,ids]
@@ -218,7 +208,7 @@ class CustomDataset(utils.Dataset):
                 mask[:, :,wall_ids]  = np.logical_xor(mask[:, :,wall_ids], mask[:, :, other_ids])
 
 
-        return mask.astype(np.bool), np.array(info['class_ids'], dtype=np.int32) #class_ids #np.ones([mask.shape[-1]], dtype=np.int32)
+        return mask.astype(np.bool), np.array(info['class_ids'], dtype=np.int32) 
 
     def image_reference(self, image_id):
         """Return the path of the image."""
@@ -246,12 +236,14 @@ def train(model):
     # Since we're using a very small dataset, and starting from
     # COCO trained weights, we don't need to train too long. Also,
     # no need to train all layers, just the heads should do it.
+    #augmentation = imgaug.augmenters.Fliplr(1) # First ugment using Fliplr method
+    #augmentation = imgaug.augmenters.Affine(rotate = (45,-45)) # Seconds, Augmnet using Affine and Ratation methods
     print("Training network heads")
     model.train(dataset_train, dataset_val,
                 learning_rate=config.LEARNING_RATE,
                 epochs=50,
                 layers='heads')
-
+                #augmentation = augmentation
 
 def color_splash(image, mask):
     """Apply color splash effect.
@@ -398,7 +390,7 @@ if __name__ == '__main__':
         #print('weights_path before')
         #weights_path = model.find_last()[1]
         
-        # mola, we need to load the last model so, we can use builtin method to access the model
+        # New updates,, we need to load the last model so, we can use builtin method to access the model
         weights_path = MY_WEIGHTS_PATH
         print('weights_path after', weights_path)
     elif args.weights.lower() == "imagenet":
