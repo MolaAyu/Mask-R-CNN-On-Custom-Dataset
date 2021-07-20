@@ -16,4 +16,4 @@ The repository includes:
 - Jupyter notebooks to visualize image extracting pipeline process
 - Modified code of Mask R-CNN for custom data set
 - Jupyter notebooks to visualize the detection pipeline at every step
-- Evaluation metrics 
+- Evaluation metrics   
